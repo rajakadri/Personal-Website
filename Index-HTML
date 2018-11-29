@@ -61,8 +61,8 @@
 </div>-->
 
 <div class='container-fluid'>
-<h1>Hello World!</h1>
+<h1>Hello World.</h1>
 </div>
-<!--<script type="text/javascript" src="script.js"></script>-->
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
