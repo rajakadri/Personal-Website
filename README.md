@@ -14,3 +14,5 @@ Style-CSS file:
 - Used 2 @media tags to control which navbar is hidden (actually display: none, not hidden), and which is visible.
 
 Future fixes: Work more with some custom CSS or BS4 properties to arrange the NavBar links and button in a better way.
+
+CURRENT ISSUE: Visible NavBar links appear in the wrong spot after switching between media view sizes.
