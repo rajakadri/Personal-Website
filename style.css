@@ -1,0 +1,25 @@
+body, html {
+height: 2000px;
+}
+
+.navbar-brand {
+margin-left: 10px;
+}
+
+@media (max-width: 990px) {
+#visNavBar {
+display: none !important;
+}
+#hiddenNav {
+visibility: visible !important;
+}
+}
+
+@media (min-width: 991px) {
+#visNavBar {
+visibility: visible !important;
+}
+#hiddenNav {
+display: none !important;
+}
+}
