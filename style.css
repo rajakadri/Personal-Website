@@ -6,6 +6,14 @@ height: 2000px;
 margin-left: 10px;
 }
 
+.title {
+text-align: center;
+}
+
+#dropdown {
+visibility: none;
+}
+
 @media (max-width: 990px) {
 #visNavBar {
 display: none !important;
