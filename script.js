@@ -1,20 +1,12 @@
 $(document).ready(function() {
 
-$("#mainButton").click(function() {
-$("#firstButton").fadeToggle()
-})
-
-$("#firstButton").click(function() {
-$("#secondButton").fadeToggle()
-})
-
-$("#secondButton").click(function() {
-$("#thirdButton").fadeToggle()
+$("#mainButton").mouseenter(function() {
+$("#dropdown").fadeToggle();
 })
 
 $(window).scroll(function(){
 let scroll = $(window).scrollTop();
-if (scroll > 300) {
+if (scroll >= 300) {
 $("#visNavBar").fadeOut()
 $("#hiddenNav").fadeOut()
 $("#dropdown").hide()
@@ -30,5 +22,15 @@ $("#dropdown").hide()
 $("#scrollBtn").fadeOut()}
 })
 
-
+$("a").click(function(event) {
+if (this.hash !== '') {
+event.preventDefault();
+let hash = this.hash;
+$('html, body').animate({
+scrollTop: $(hash).offset().top
+}, 800, function(){
+window.location.hash = hash;
+})
+}
+})
 });
