@@ -41,7 +41,7 @@ color: royalblue;
 }
 
 #jsIcon {
-color: #FFD700;
+color: #ffb07c;
 }
 
 #dbIcon {
@@ -90,14 +90,6 @@ color: gray;
 
 #areaTwo {
 background-color: white;
-height: 700px;
-width: auto;
-}
-
-#areaThree {
-background-color: yellow;
-height: 700px;
-width: auto;
 }
 
 #scrollBtn {
