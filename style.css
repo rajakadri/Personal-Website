@@ -33,7 +33,7 @@ width: auto;
 
 
 #htmlIcon {
-color: orange;
+color: #f06529;
 }
 
 #cssIcon {
@@ -41,7 +41,7 @@ color: royalblue;
 }
 
 #jsIcon {
-color: #ffb07c;
+color: #f7df1e;
 }
 
 #dbIcon {
@@ -49,7 +49,7 @@ color: #0073e6;
 }
 
 #kdIcon {
-color: #ffcc33;
+color: #FFD43B;
 }
 
 #rIcon {
@@ -61,35 +61,30 @@ color: #A4C639;
 }
 
 #javaIcon {
-color: #ff3300;
+color: #ff0000;
 }
 
-#wordIcon {
-color: # ;
-}
-
-#excelIcon {
-color: #00592D;
-}
-
-#pptIcon {
-color: #EA3C00;
+#gitIcon {
 }
 
 #msftIcon {
-
+color: #00a1f1;
 }
 
 #googIcon {
-
+color: #0F9D58;
 }
 
 #cogIcon {
-color: gray;
+color: #BA0C2F;
 }
 
 #areaTwo {
 background-color: white;
+}
+
+#timeline {
+height:
 }
 
 #scrollBtn {
@@ -112,6 +107,7 @@ display: none !important;
 visibility: visible !important;
 }
 }
+
 
 @media (min-width: 991px) {
 #visNavBar {

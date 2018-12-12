@@ -6,7 +6,7 @@ $("#dropdown").fadeToggle();
 
 $(window).scroll(function(){
 let scroll = $(window).scrollTop();
-if (scroll >= 300) {
+if (scroll === 300 && scroll > 300) {
 $("#visNavBar").fadeOut()
 $("#hiddenNav").fadeOut()
 $("#dropdown").hide()
@@ -32,5 +32,11 @@ scrollTop: $(hash).offset().top
 window.location.hash = hash;
 })
 }
+})
+
+$("#arrowOne").click(function() {
+$("#analysis").fadeOut()
+$("#chartIcon").fadeOut()
+$("#pyIconMove").fadeIn().animate({left:'250px'})
 })
 });
