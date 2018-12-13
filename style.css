@@ -1,119 +1,122 @@
 body, html {
-height: 2000px;
+  height: 2000px;
 }
 
 .container {
-text-align: center;
+  text-align: center;
 }
 
 .navbar-brand {
-margin-left: 10px;
+  margin-left: 10px;
 }
 
 .title {
-text-align: center;
+  text-align: center;
 }
 
 #dropdown {
-visibility: none;
+  visibility: none;
 }
 
 #scrollBtn {
-display: none;
-position: absolute;
-float: right;
+  display: none;
+  position: absolute;
+  float: right;
 }
 
+#profile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 #areaOne {
-background-color: royalblue;
-height: 700px;
-width: auto;
+  background-color: white;
+  height: 700px;
+  width: auto;
+  overflow: hidden;
 }
 
-
 #htmlIcon {
-color: #f06529;
+  color: #f06529;
 }
 
 #cssIcon {
-color: royalblue;
+  color: royalblue;
 }
 
 #jsIcon {
-color: #f7df1e;
+  color: #f7df1e;
 }
 
 #dbIcon {
-color: #0073e6;
+  color: #0073e6;
 }
 
 #kdIcon {
-color: #FFD43B;
+  color: #FFD43B;
 }
 
 #rIcon {
-color: #0073e6;
+  color: #0073e6;
 }
 
 #andIcon {
-color: #A4C639;
+  color: #A4C639;
 }
 
 #javaIcon {
-color: #ff0000;
+  color: #ff0000;
 }
 
-#gitIcon {
-}
+#gitIcon {}
 
 #msftIcon {
-color: #00a1f1;
+  color: #00a1f1;
 }
 
 #googIcon {
-color: #0F9D58;
+  color: #0F9D58;
 }
 
 #cogIcon {
-color: #BA0C2F;
+  color: #BA0C2F;
 }
 
 #areaTwo {
-background-color: white;
+  background-color: white;
 }
 
 #timeline {
-height:
+  height:
 }
 
 #scrollBtn {
-border-radius: 50%;
+  border-radius: 50%;
 }
 
 footer {
-position: fixed;
-bottom: 0;
-width: 100%;
-height: 60px;
-line-height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
 }
 
 @media (max-width: 990px) {
-#visNavBar {
-display: none !important;
-}
-#hiddenNav {
-visibility: visible !important;
-}
-}
+  #visNavBar {
+    display: none !important;
+  }
 
+  #hiddenNav {
+    visibility: visible !important;
+  }
+}
 
 @media (min-width: 991px) {
-#visNavBar {
-visibility: visible !important;
-}
-#hiddenNav {
-display: none !important;
-}
+  #visNavBar {
+    visibility: visible !important;
+  }
+
+  #hiddenNav {
+    display: none !important;
+  }
 }
