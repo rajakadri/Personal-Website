@@ -16,3 +16,6 @@ Style-CSS file:
 Future fixes: Work more with some custom CSS or BS4 properties to arrange the NavBar links and button in a better way.
 
 CURRENT ISSUE: Visible NavBar links appear in the wrong spot after switching between media view sizes.
+
+CHANGES: Changed to become personal website? 
+ReadMe to be updated later...
