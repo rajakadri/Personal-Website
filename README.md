@@ -1,4 +1,4 @@
-# Toggle-NavBar
+# Personal Website
 Purpose: Use BS4 to create a responsive Toggle NavBar and regular horizontal NavBar. Depending on the media screen size, one of the two NavBar's will be displayed.
 
 Starting from the Index-HTML file:
