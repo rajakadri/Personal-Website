@@ -86,7 +86,16 @@ body, html {
 }
 
 #timeline {
-  height:
+  background-color: black;
+
+}
+
+#chartContainer {
+height: 700px;
+}
+
+.workExpHide {
+visibility: hidden;
 }
 
 #scrollBtn {
