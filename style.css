@@ -85,9 +85,12 @@ body, html {
   background-color: white;
 }
 
-#timeline {
-  background-color: black;
+#arrowOne:hover, #arrowTwo:hover, #arrowThree:hover {
+color: royalBlue;
+}
 
+#daHidden, #devHidden, #infHidden {
+display: none;
 }
 
 #chartContainer {

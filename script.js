@@ -34,14 +34,14 @@ $(document).ready(function() {
     }
   })
 
-  /*$("#arrowOne").click(function() {
-    $("#analysis").fadeOut()
-    $("#chartIcon").fadeOut()
-    $("#pyIconMove").fadeIn().animate({
-      left: '250px'
-    })
-  })*/
+  $("#arrowOne").click(function() {
+    $("#daShow").slideUp()
+    $("#daHidden").slideDown()
+  })
 
+  document.getElementById("arrowOne").style.cursor = "pointer";
+document.getElementById("arrowTwo").style.cursor = "pointer";
+document.getElementById("arrowThree").style.cursor = "pointer";
 //Loads Visualization API and timeline package
 google.charts.load('current',{'packages':['timeline']});
 //Callback set when Visualization API loaded
@@ -52,12 +52,12 @@ google.charts.setOnLoadCallback(drawChart);
     let container = document.getElementById('chart_div');
     let chart = new google.visualization.Timeline(container);
     let dataTable = new google.visualization.DataTable();
-
+//Column data
     dataTable.addColumn({ type: 'string', id: 'Term' });
     dataTable.addColumn({ type: 'string', id: 'Name' });
     dataTable.addColumn({ type: 'date', id: 'Start' });
     dataTable.addColumn({ type: 'date', id: 'End' });
-    
+//Row data
     dataTable.addRows([
       [ 'Volunteering', 'Camp Joint Venture', new Date(2016, 6), new Date(2016, 7)],
       [ 'Volunteering', 'UGA Science Olympiad', new Date(2016, 10), new Date(2016, 11)],
@@ -71,7 +71,7 @@ google.charts.setOnLoadCallback(drawChart);
       [ 'Full-Time', 'Dragados USA', new Date(2017, 9),  new Date(2018, 4) ],
       [ 'Internship', 'Kaiser Permanente', new Date(2018, 5), new Date(2019, 0) ],
     ]);
-
+//Options to customize chart
     let options = {
       timeline: {groupByRowLabel: true},
       timeline: {colorByRowLabel: true },
